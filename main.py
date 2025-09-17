@@ -1,17 +1,4 @@
-def add(a, b):
-    return a + b
-
-def sub(a, b):
-    return a - b
-
-def mul(a, b):
-    return a * b
-
-def div(a, b):
-    if b == 0:
-        return "Go back to elemtary school"
-    return a / b 
-
+from calculator.operations import *
 
 while True:
     print("a. Add")
