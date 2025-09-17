@@ -32,4 +32,4 @@ while True:
         print("Result", div(a, b))
         print()
     else:
-        print("Learn to read")
+        print("Invalid option")
